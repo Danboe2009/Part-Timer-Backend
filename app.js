@@ -22,6 +22,22 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
+app.get('/', function (req, res) {
+  res.send('Hello World!')
+})
+
+app.post('/', function (req, res) {
+  res.send('Got a POST request')
+})
+
+app.put('/user', function (req, res) {
+  res.send('Got a PUT request at /user')
+})
+
+app.delete('/user', function (req, res) {
+  res.send('Got a DELETE request at /user')
+})
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
@@ -37,13 +53,5 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
-app.get('/', function (req, res) {
-    res.send('Hello World!')
-})
-
-app.post('/', function (req, res) {
-    res.send('Got a POST request')
-})
 
 module.exports = app;
