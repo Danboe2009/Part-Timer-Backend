@@ -1,6 +1,13 @@
 {
   "db": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb+srv://admin:Hugusimp19!@part-timer-db.depgd.mongodb.net/parts-db",
+    "database": "",
+    "password": "",
     "name": "db",
-    "connector": "memory"
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
   }
 }
