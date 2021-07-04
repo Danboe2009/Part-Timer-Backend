@@ -5,7 +5,7 @@
     "url": "mongodb+srv://admin:Hugusimp19!@part-timer-db.depgd.mongodb.net/parts-db?retryWrites=true&w=majority",
     "database": "",
     "password": "",
-    "name": "",
+    "name": "db",
     "user": "",
     "useNewUrlParser": true,
     "connector": "mongodb"
