@@ -2,7 +2,7 @@
   "db": {
     "host": "",
     "port": 0,
-    "url": "mongodb+srv://admin:Hugusimp19!@part-timer-db.depgd.mongodb.net/parts-db",
+    "url": "mongodb+srv://admin:Hugusimp19!@part-timer-db.depgd.mongodb.net/parts-db?retryWrites=true&w=majority",
     "database": "",
     "password": "",
     "name": "db",
