@@ -30,6 +30,10 @@
       "type": "string",
       "required": true
     },
+    "completed": {
+      "type": "boolean",
+      "required": true
+    },
     "owner": {
       "type": "string",
       "required": true
