@@ -10,4 +10,3 @@ var properties = {
   };
   
   var client = loopback.Model.extend('user', properties);
-  
