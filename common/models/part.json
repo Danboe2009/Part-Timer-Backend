@@ -37,6 +37,14 @@
     "owner": {
       "type": "string",
       "required": true
+    },
+    "lifeSpanYears": {
+      "type": "string", 
+      "required": true
+    },
+    "lifeSpanMileage": {
+      "type" : "string",
+      "required": true
     }
   },
   "validations": [],
